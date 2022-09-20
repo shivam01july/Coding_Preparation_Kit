@@ -24,10 +24,11 @@
 - Longest Path in a DAG
 
 ### Minimum Spanning Tree (MST)
-> *MST uses Greedy Algorithm*
-> A spanning tree means all vertices must be connected.
-> Spanning tree must not have any cycle in it.
-> connected and undirected graph
+> *MST uses Greedy Algorithm.*  
+> *MST should be Connected Graph.*  
+> *MST works in UnDirected Graph.*  
+> *MST should not have any Cycle.*  
+
 - **Prim's Algorithm**
 - **Kruskal's Algorithm**
 
