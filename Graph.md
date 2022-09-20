@@ -24,7 +24,7 @@
 - Longest Path in a DAG
 
 ### Minimum Spanning Tree (MST)
-> *MST uses Greedy Algorithm.*  
+> *MST uses Greedy Approach.*  
 > *MST should be Connected Graph.*  
 > *MST works in UnDirected Graph.*  
 > *MST should not have any Cycle.*  
@@ -32,19 +32,19 @@
 - **Kruskal's Algorithm**
 - Minimum cost to connect all cities
 
-
-
-Dijkstra - Shorter path from a given node to all vertices
-
--- single source shortest path when all edges are non negative
--- Greedy approach
-Flyodd Warshall - Shorter path from every vertex to every other vertex
--- Dynamic programming
--- Floyd-Warshall's algorithm for solving the All Pairs Shortest Path (APSP) problem and it's variants.
-Bellman Ford Algorithm 
--- Greedy approach
--- Bellman-Ford's algorithm for solving the SSSP problem with negative sycles.
-
+### Shortest Paths
+> 
+- **Dijkstra’s Algorithm** 
+    > *Shorter path from a given node to all vertices.*   
+    > *Graph edge weight should be non negative.*   
+    > *Uses Greedy Approach.*
+- **Flyodd Warshall Algorithm**
+	> *Shorter path from every vertex to every other vertex.*   
+	> *Uses Dynamic Programming.*   
+- **Bellman-Ford Algorithm**
+	> *Shortest paths from source to all vertices.*   
+	> *Graph may contain negative weight edges.*   
+	> *Uses Dynamic Programming.*   
 
 
 Articulation points in a graph
