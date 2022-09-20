@@ -5,28 +5,35 @@
 ### Depth First Search (DFS)  
 
 ### Detect Cycle In Graph
-> *Given a directed and undirected graph, check whether the graph has Cycle, Negative Cycle or No Cycle.*
+> *Used to check whether the graph has a Cycle, Negative Cycle or No Cycle in a Directed or UnDirected Graph.*
 - Detect Cycle in Directed Graph
 - Detect Cycle in UnDirected Graph
 - Detect Negative Cycle in a Graph
-  - Negative Cycle Detection using **Bellman Ford Algorithm**
+  - Negative Cycle Detection using **Bellman-Ford Algorithm**
   - Negative Cycle Detection using **Floyd Warshall Algorithm**
 - Disjoint-Set Or Union-Find *(DSU)*
-	- **Union Find Algorithm**
+	- **Union-Find Algorithm**
 	- Cycle Detection in UnDirected Graph using DSU
 	- Cycle Detection in Directed Graph using DSU
 
+### Topological Sorting
+> *Used for Directed Acyclic Graph (DAG).*
+- Topological Sorting
+- **Kahn’s Algorithm**
+- Longest Path between any pair of vertices
+- Longest Path in a DAG
 
-for directed acyclic graph
-4. Topological Sorting
-5. Kahn’s Algorithm for Topological Sorting
-6. Longest path between any pair of vertices
-Longest Path in a Directed Acyclic Graph
--- 
--- he famous algorithm uses DFS but you should also know Kahn's algorithm that uses BFS as it has much applications
+### Minimum Spanning Tree (MST)
+> *MST uses Greedy Algorithm*
+> A spanning tree means all vertices must be connected.
+> Spanning tree must not have any cycle in it.
+> connected and undirected graph
+- **Prim's Algorithm**
+- **Kruskal's Algorithm**
 
 
-Dijkstra - Shorter path from a given node to all vertices
+		Dijkstra - Shorter path from a given node to all vertices
+
 -- single source shortest path when all edges are non negative
 -- Greedy approach
 Flyodd Warshall - Shorter path from every vertex to every other vertex
@@ -35,8 +42,7 @@ Flyodd Warshall - Shorter path from every vertex to every other vertex
 Bellman Ford Algorithm 
 -- Greedy approach
 -- Bellman-Ford's algorithm for solving the SSSP problem with negative sycles.
-Prim - Minimum spanning tree
-Kruskal - Minimum spanning tree
+
 
 
 Articulation points in a graph
