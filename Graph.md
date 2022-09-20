@@ -28,12 +28,13 @@
 > *MST should be Connected Graph.*  
 > *MST works in UnDirected Graph.*  
 > *MST should not have any Cycle.*  
-
 - **Prim's Algorithm**
 - **Kruskal's Algorithm**
+- Minimum cost to connect all cities
 
 
-		Dijkstra - Shorter path from a given node to all vertices
+
+Dijkstra - Shorter path from a given node to all vertices
 
 -- single source shortest path when all edges are non negative
 -- Greedy approach
