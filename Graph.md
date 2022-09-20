@@ -1,6 +1,7 @@
 # All Topics in Graph
 
 ### Breadth First Search (BFS)
+- Clone an Undirected Graph
 
 ### Depth First Search (DFS)  
 
@@ -33,7 +34,6 @@
 - Minimum cost to connect all cities
 
 ### Shortest Paths
-> 
 - **Dijkstra’s Algorithm** 
     > *Shorter path from a given node to all vertices.*   
     > *Graph edge weight should be non negative.*   
@@ -45,20 +45,26 @@
 	> *Shortest paths from source to all vertices.*   
 	> *Graph may contain negative weight edges.*   
 	> *Uses Dynamic Programming.*   
+- **Johnson's Algorithm**
+	> *Shortest paths between every pair of vertices.*
+	> *Graph may contain negative weight edges.*
+- Shortest Path in DAG
+- Shortest Path in an UnWeighted Graph
+- Minimum weight cycle in an UnDirected Graph
 
+### BackTracking 
+- Rat in a Maze
+- n-Queen’s Problem
+- Coloring Problem
 
-Articulation points in a graph
-Bridges in a graph
-Johnsons algorithm
+### Connectivity
+- Connected Components
+- Number of islands
+- Bridges in a graph
+- Articulation points
 
-Bipartite Graph
-Connected Components
-Snake Ladder
-Surrounded Region
-De Brujin sequence
-Matrix path length in a binary matrix
-Check if a given tree graph is linear or not
-Edge Coloring of a Graph
-Finding the probability of a state at a given time in a Markov chain
-Hopcroft -karp algorithm
-Graph colouring algorithm (for chromatic number)
+### Misc
+- Bipartite Graph
+- Snake and Ladder Problem
+- Surrounded Region
+
