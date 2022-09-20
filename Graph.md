@@ -1,22 +1,28 @@
 # All Topics in Graph
 
-__Breadth First Search (BFS)__
-Depth First Search (DFS)
+### Breadth First Search (BFS)
 
-3. Detect Cycle In Graph
-3.1. Cycle Detection in UnDirected Graph
-3.2. Cycle Detection In Directed Graph
-3.3. Detect a Negative Cycle in a Graph 
-3.3.1. Using Bellman Ford Algorithm
-3.3.2. Using Floyd Warshall Algorithm
-3.4. Disjoint-Set Or Union-Find (DSU)
-3.4.1. Union Find Algorithm
-3.4.2. Cycle Detection in UnDirected Graph
-3.4.3. Cycle Detection in Directed Graph
+### Depth First Search (DFS)  
 
+### Detect Cycle In Graph
+> *Given a directed and undirected graph, check whether the graph has Cycle, Negative Cycle or No Cycle.*
+- Detect Cycle in Directed Graph
+- Detect Cycle in UnDirected Graph
+- Detect Negative Cycle in a Graph
+  - Negative Cycle Detection using **Bellman Ford Algorithm**
+  - Negative Cycle Detection using **Floyd Warshall Algorithm**
+- Disjoint-Set Or Union-Find *(DSU)*
+	- **Union Find Algorithm**
+	- Cycle Detection in UnDirected Graph using DSU
+	- Cycle Detection in Directed Graph using DSU
+
+
+for directed acyclic graph
 4. Topological Sorting
+5. Kahn’s Algorithm for Topological Sorting
+6. Longest path between any pair of vertices
 Longest Path in a Directed Acyclic Graph
--- for directed acyclic graph
+-- 
 -- he famous algorithm uses DFS but you should also know Kahn's algorithm that uses BFS as it has much applications
 
 
