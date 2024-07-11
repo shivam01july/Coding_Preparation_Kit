@@ -67,7 +67,7 @@
 
   ### Map & Unordered Map
 	- Syntax:
- 		- map<Key, Value> mp;
+		- map<Key, Value> mp;
    		- unordered_map<Key, Value> umap;
 	Function Name:
 		at()			->	mp.at(Key)												->	Returns the reference to the value with the element as key k.
