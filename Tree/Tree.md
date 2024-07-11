@@ -56,7 +56,7 @@
   - **Functions Name:**
     - at()	**–>**	*Returns the reference to the value with the element as key k.*
     - begin()	**–>**	*Returns an iterator pointing to the first element in the container.*
-    - end()	**–>**	*Returns an iterator pointing to the position past the last element in the container.*
+    - end()     **–>**	*Returns an iterator pointing to the position past the last element in the container.*
     - find()	**–>**	*Search for an element in the container.*
     - size()	**–>**	*Return the number of elements in the container.*
     - insert()	**–>**	*Insert a new element in the container.*
@@ -66,45 +66,43 @@
     - count()	**–>**	*Count occurrences of a particular element in container.*		
 
   ### Map & Unordered Map
-	- Syntax:
-		- map<Key, Value> mp;
-   		- unordered_map<Key, Value> umap;
-	Function Name:
-		at()			->	mp.at(Key)												->	Returns the reference to the value with the element as key k.
-		begin()			->	mp.begin()												->	Returns an iterator pointing to the first element in the container.
-		end()			->	mp.end()												->	Returns an iterator pointing to the position past the last element in the container.
-		find()			->	if(mp.find(Key) != mp.end()) & auto it = mp.find(Key);	->	Returns iterator to the element.
-		size()			->	mp.size()												->	Return the number of elements in the container.
-		insert()		->	mp.insert({Key,Value})									->	Insert elements with a particular key in the map container.
-		pair_insert(,)	–>	mp.insert(make_pair(Key,Value))							->	Adds a new element to the map.
-		empty()			->	if(mp.empty())											->	Checks whether the container is empty.
-		erase()			->	mp.erase(Key) & mp.erase(it)							->	Erase elements in the container.
-		clear()			–>	mp.clear()												->	Removes all the elements from the map.
-		count()			->	mp.count(Key)											->	Count the number of elements present in an container with a given key.
+  - **Syntax:**
+    - map<Key, Value> mp;
+    - unordered_map<Key, Value> umap;
+  - **Function Name:**
+    - at()			->	mp.at(Key)												    **–>**	*Returns the reference to the value with the element as key k.*
+    - begin()			->	mp.begin()												**–>**	*Returns an iterator pointing to the first element in the container.*
+    - end()			->	mp.end()												    **–>**	*Returns an iterator pointing to the position past the last element in the container.*
+    - find()			->	if(mp.find(Key) != mp.end()) & auto it = mp.find(Key);	**–>**	*Returns iterator to the element.*
+    - size()			->	mp.size()												**–>**	*Return the number of elements in the container.*
+    - insert()		->	mp.insert({Key,Value})									    **–>**	*Insert elements with a particular key in the map container.*
+    - pair_insert(,)	–>	mp.insert(make_pair(Key,Value))							**–>**	*Adds a new element to the map.*
+    - empty()			->	if(mp.empty())											**–>**	*Checks whether the container is empty.*
+    - erase()			->	mp.erase(Key) & mp.erase(it)							**–>**	*Erase elements in the container.*
+    - clear()			–>	mp.clear()												**–>**	*Removes all the elements from the map.*
+    - count()			->	mp.count(Key)											**–>**	*Count the number of elements present in an container with a given key.*
 
-
-String
-	 sort(str.begin(), str.end());
-	 erase(pos) & erase(start_pos,end_pos);
-	 resize(size_type num);
+### String
+- sort(str.begin(), str.end());
+- erase(pos) & erase(start_pos,end_pos);
+- resize(size_type num);
 	 
 	 
 	 
 	 
 	 
 
+--------------------------------------------------------------------------------
+- Sort
+- Reverse
+- Swap
 
-Sort
-Reverse
-Swap
+- isalnum() -->  int isalnum(char ch);
+- isupper() -->  int isupper(int ch);
+- islower() -->  int islower(int ch);
+- isupper() -->  int tolower(int ch);
+- islower() -->  int toupper(int ch);
 
-isalnum() -->  int isalnum(char ch);
-
-isupper() -->  int isupper(int ch);
-islower() -->  int islower(int ch);
-isupper() -->  int tolower(int ch);
-islower() -->  int toupper(int ch);
-
-abs(int x);
+- abs(int x);
 
 
