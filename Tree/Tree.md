@@ -36,7 +36,7 @@
       - clear()					**–>**	*It is used to remove all the elements of the vector container.*
       - erase(pos) & erase(start_pos,end_pos)	**–>**	*It is used to remove elements from a container from the specified position or range.*
       - swap()					**–>**	*It is used to swap the contents of one vector with another vector of same type. Sizes may differ.*
-		
+	
 ### Set & Unordered Set
 >  - **Set**
 >    -  It is used to store the unique elements.
@@ -63,12 +63,12 @@
     - empty()	**–>**	*Check if an container is empty or not.*
     - erase()	**–>**	*Remove either a single element or a range of elements ranging from start(inclusive) to end(exclusive).*
     - clear()	**–>**	*Removes all of the elements from container.*
-    - count()	**–>**	*Count occurrences of a particular element in container.*
-		
-		
-Unordered Map & Map
-	Syntax:
-		unordered_map<Key, Value> umap;		& 	map<Key, Value> mp;
+    - count()	**–>**	*Count occurrences of a particular element in container.*		
+
+  ### Map & Unordered Map
+	- Syntax:
+ 		- map<Key, Value> mp;
+   		- unordered_map<Key, Value> umap;
 	Function Name:
 		at()			->	mp.at(Key)												->	Returns the reference to the value with the element as key k.
 		begin()			->	mp.begin()												->	Returns an iterator pointing to the first element in the container.
