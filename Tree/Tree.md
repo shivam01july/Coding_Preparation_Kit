@@ -36,7 +36,36 @@
       - clear()					**–>**	*It is used to remove all the elements of the vector container.*
       - erase(pos) & erase(start_pos,end_pos)	**–>**	*It is used to remove elements from a container from the specified position or range.*
       - swap()					**–>**	*It is used to swap the contents of one vector with another vector of same type. Sizes may differ.*
-	
+
+### List
+- **Syntax:**
+  - list<Data-Type> name_of_list;
+- **Iterators:**	
+  - begin()		**–>** 	*Returns an iterator pointing to the first element of the list.*
+  - end()		**–>** 	*Returns an iterator pointing to the theoretical last element which follows the last element.*
+  - rbegin()		**–>** 	*Returns a reverse iterator which points to the last element of the list.*
+  - rend()		**–>** 	*Returns a reverse iterator that points to the position before the beginning of the list.*
+- **Capacity:**
+  - size()		**–>** 	*Returns the number of elements in the list.*
+  - empty()		**–>** 	*Returns whether the list is empty(1) or not(0).*
+- **Element access:**	
+  - front()		**–>** 	*Returns the value of the first element in the list.*
+  - back()		**–>** 	*Returns the value of the last element in the list.*
+- **Modifiers:**	
+  - push_front(g)	**–>** 	*Adds a new element ‘g’ at the beginning of the list.*
+  - push_back(g)	**–>** 	*Adds a new element ‘g’ at the end of the list.*
+  - pop_front()		**–>** 	*Removes the first element of the list, and reduces the size of the list by 1.*
+  - pop_back()		**–>** 	*Removes the last element of the list, and reduces the size of the list by 1.*
+  - assign()		**–>** 	*Assigns new elements to the list by replacing current elements and resizing the list.*
+  - insert()		**–>** 	*Inserts new elements in the list before the element at a specified position.*
+  - erase()		**–>** 	*Removes a single element or a range of elements from the list.*
+  - clear()		**–>** 	*It is used to remove all the elements of the list container, thus making it size 0.*
+  - remove()		**–>** 	*Removes all the elements from the list, which are equal to a given element.*
+  - unique()		**–>** 	*Removes all duplicate consecutive elements from the list.*
+  - reverse()		**–>** 	*Reverses the list.*
+  - sort()		**–>** 	*Sorts the list in increasing order.*
+  - swap()		**–>** 	*This function is used to swap the contents of one list with another list.*
+
 ### Set & Unordered Set
 >  - **Set**
 >    -  It is used to store the unique elements.
@@ -82,17 +111,17 @@
     - map<Key, Value> mp;
     - unordered_map<Key, Value> umap;
   - **Function Name:**
-    - at()			->	mp.at(Key)												    **–>**	*Returns the reference to the value with the element as key k.*
-    - begin()			->	mp.begin()												**–>**	*Returns an iterator pointing to the first element in the container.*
-    - end()			->	mp.end()												    **–>**	*Returns an iterator pointing to the position past the last element in the container.*
-    - find()			->	if(mp.find(Key) != mp.end()) & auto it = mp.find(Key);	**–>**	*Returns iterator to the element.*
-    - size()			->	mp.size()												**–>**	*Return the number of elements in the container.*
-    - insert()		->	mp.insert({Key,Value})									    **–>**	*Insert elements with a particular key in the map container.*
-    - pair_insert(,)	–>	mp.insert(make_pair(Key,Value))							**–>**	*Adds a new element to the map.*
-    - empty()			->	if(mp.empty())											**–>**	*Checks whether the container is empty.*
-    - erase()			->	mp.erase(Key) & mp.erase(it)							**–>**	*Erase elements in the container.*
-    - clear()			–>	mp.clear()												**–>**	*Removes all the elements from the map.*
-    - count()			->	mp.count(Key)											**–>**	*Count the number of elements present in an container with a given key.*
+    - at()			**–>**	mp.at(Key)						**–>**	*Returns the reference to the value with the element as key k.*
+    - begin()			**–>**	mp.begin()						**–>**	*Returns an iterator pointing to the first element in the container.*
+    - end()			**–>**	mp.end()						**–>**	*Returns an iterator pointing to the position past the last element in the container.*
+    - find()			**–>**	if(mp.find(Key) != mp.end()) & auto it = mp.find(Key);	**–>**	*Returns iterator to the element.*
+    - size()			**–>**	mp.size()						**–>**	*Return the number of elements in the container.*
+    - insert()			**–>**	mp.insert({Key,Value})					**–>**	*Insert elements with a particular key in the map container.*
+    - pair_insert(,)		**–>**	mp.insert(make_pair(Key,Value))				**–>**	*Adds a new element to the map.*
+    - empty()			**–>**	if(mp.empty())						**–>**	*Checks whether the container is empty.*
+    - erase()			**–>**	mp.erase(Key) & mp.erase(it)				**–>**	*Erase elements in the container.*
+    - clear()			**–>**	mp.clear()						**–>**	*Removes all the elements from the map.*
+    - count()			**–>**	mp.count(Key)						**–>**	*Count the number of elements present in an container with a given key.*
 
 ### String
 - sort(str.begin(), str.end());
@@ -102,8 +131,6 @@
 	 
 	 
 	 
-	 
-
 --------------------------------------------------------------------------------
 - Sort
 - Reverse
