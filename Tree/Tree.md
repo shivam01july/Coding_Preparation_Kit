@@ -66,6 +66,29 @@
   - sort()		**–>** 	*Sorts the list in increasing order.*
   - swap()		**–>** 	*This function is used to swap the contents of one list with another list.*
 
+### Vector vs List
+> - **Vector**
+>   - It has contiguous memory.
+>   - It is synchronized.
+>   - Vector may have a default size.
+>   - In vector, each element only requires the space for itself only.
+>   - Insertion at the end requires constant time but insertion elsewhere is costly.
+>   - Vector is thread safe.
+>   - Deletion at the end of the vector needs constant time but for the rest it is O(n).
+>   - Random access of elements is possible.
+>   - Iterators become invalid if elements are added to or removed from the vector.	
+> - **List**
+>   - While it has non-contiguous memory.
+>   - While it is not synchronized.
+>   - List does not have default size.
+>   - In list, each element requires extra space for the node which holds the element, including pointers to the next and previous elements in the list.
+>   - Insertion is cheap no matter where in the list it occurs.
+>   - List is not thread safe.
+>   - Deletion is cheap no matter where in the list it occurs.
+>   - Random access of elements is not possible.
+>   - Iterators are valid if elements are added to or removed from the list.
+
+
 ### Set & Unordered Set
 >  - **Set**
 >    -  It is used to store the unique elements.
