@@ -1,56 +1,56 @@
 # STL in C++
 
 ### Vector
-  - **Syntax:**
-      - vector<Data_Type> vName;
-  - **Function Names:**
-      - sort(v.begin(), v.end());
-      - sort(uMp.begin(), uMp.end(), cmp);	bool cmp(pair<int,int>& a, pair<int,int>& b) { return a.second > b.second; }
-      - insert<pair< , >>;
-      - make_pair( , );
-      - *max_element(a.begin(), a.end());
-  - **Iterators:**
-      - begin()		**–>**  *Returns an iterator pointing to the first element in the vector.*
-      - end() 		**–>**	*Returns an iterator pointing to the theoretical element that follows the last element in the vector.*
-      - rbegin() 	**–>**	*Returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element.*
-      - rend() 		**–>**	*Returns a reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end).*
-  - **Capacity:**
-      - size()		**–>**	*Returns the number of elements in the vector.*
-      - capacity()	**–>**	*Returns the size of the storage space currently allocated to the vector expressed as number of elements.*
-      - empty()		**–>**	*Returns whether the container is empty.*
-      - resize(n,val)	**–>**	*Resizes the container so that it contains ‘n’ elements.*
-      - shrink_to_fit()	**–>**	*Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.*
-      - reserve()	**–>**	*Requests that the vector capacity be at least enough to contain n elements.*
-  - **Element access:**
-      - at(pos) 	**–>**	*Returns a reference to the element at position ‘g’ in the vector.*
-      - front() 	**–>**	*Returns a reference to the first element in the vector.*
-      - back() 		**–>**	*Returns a reference to the last element in the vector.*
-      - data() 		**–>**	*Returns a direct pointer to the memory array used internally by the vector to store its owned elements.*
-  - **Modifiers:**
-      - assign(size,value)			**–>**	*It assigns new value to the vector elements by replacing old ones.*
-      - push_back()				**–>**	*It push the elements into a vector from the back.*
-      - pop_back()				**–>**	*It is used to pop or remove elements from a vector from the back.*
-      - insert(position, val)			**–>**	*It inserts new elements before the element at the specified position.*
-      - emplace()				**–>**	*It extends the container by inserting new element at position.*
-      - emplace_back()				**–>**	*It is used to insert a new element into the vector container, the new element is added to the end of the vector.*
-      - clear()					**–>**	*It is used to remove all the elements of the vector container.*
-      - erase(pos) & erase(start_pos,end_pos)	**–>**	*It is used to remove elements from a container from the specified position or range.*
-      - swap()					**–>**	*It is used to swap the contents of one vector with another vector of same type. Sizes may differ.*
+- **Syntax:**
+  - vector<Data_Type> vName;
+- **Function Names:**
+  - sort(v.begin(), v.end());
+  - sort(uMp.begin(), uMp.end(), cmp);	bool cmp(pair<int,int>& a, pair<int,int>& b) { return a.second > b.second; }
+  - insert<pair< , >>;
+  - make_pair( , );
+  - *max_element(a.begin(), a.end());
+- **Iterators:**
+  - begin()	**–>**  *Returns an iterator pointing to the first element in the vector.*
+  - end() 	**–>**	*Returns an iterator pointing to the theoretical element that follows the last element in the vector.*
+  - rbegin() 	**–>**	*Returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element.*
+  - rend() 	**–>**	*Returns a reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end).*
+- **Capacity:**
+  - size()		**–>**	*Returns the number of elements in the vector.*
+  - capacity()		**–>**	*Returns the size of the storage space currently allocated to the vector expressed as number of elements.*
+  - empty()		**–>**	*Returns whether the container is empty.*
+  - resize(n,val)	**–>**	*Resizes the container so that it contains ‘n’ elements.*
+  - shrink_to_fit()	**–>**	*Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.*
+  - reserve()		**–>**	*Requests that the vector capacity be at least enough to contain n elements.*
+- **Element access:**
+  - at(pos) 	**–>**	*Returns a reference to the element at position ‘g’ in the vector.*
+  - front() 	**–>**	*Returns a reference to the first element in the vector.*
+  - back() 	**–>**	*Returns a reference to the last element in the vector.*
+  - data() 	**–>**	*Returns a direct pointer to the memory array used internally by the vector to store its owned elements.*
+- **Modifiers:**
+  - assign(size,value)				**–>**	*It assigns new value to the vector elements by replacing old ones.*
+  - push_back()					**–>**	*It push the elements into a vector from the back.*
+  - pop_back()					**–>**	*It is used to pop or remove elements from a vector from the back.*
+  - insert(position, val)			**–>**	*It inserts new elements before the element at the specified position.*
+  - emplace()					**–>**	*It extends the container by inserting new element at position.*
+  - emplace_back()				**–>**	*It is used to insert a new element into the vector container, the new element is added to the end of the vector.*
+  - clear()					**–>**	*It is used to remove all the elements of the vector container.*
+  - erase(pos) & erase(start_pos,end_pos)	**–>**	*It is used to remove elements from a container from the specified position or range.*
+  - swap()					**–>**	*It is used to swap the contents of one vector with another vector of same type. Sizes may differ.*
 
 ### List
 - **Syntax:**
   - list<Data-Type> name_of_list;
 - **Iterators:**	
-  - begin()		**–>** 	*Returns an iterator pointing to the first element of the list.*
-  - end()		**–>** 	*Returns an iterator pointing to the theoretical last element which follows the last element.*
-  - rbegin()		**–>** 	*Returns a reverse iterator which points to the last element of the list.*
-  - rend()		**–>** 	*Returns a reverse iterator that points to the position before the beginning of the list.*
+  - begin()	**–>** 	*Returns an iterator pointing to the first element of the list.*
+  - end()	**–>** 	*Returns an iterator pointing to the theoretical last element which follows the last element.*
+  - rbegin()	**–>** 	*Returns a reverse iterator which points to the last element of the list.*
+  - rend()	**–>** 	*Returns a reverse iterator that points to the position before the beginning of the list.*
 - **Capacity:**
-  - size()		**–>** 	*Returns the number of elements in the list.*
-  - empty()		**–>** 	*Returns whether the list is empty(1) or not(0).*
+  - size()	**–>** 	*Returns the number of elements in the list.*
+  - empty()	**–>** 	*Returns whether the list is empty(1) or not(0).*
 - **Element access:**	
-  - front()		**–>** 	*Returns the value of the first element in the list.*
-  - back()		**–>** 	*Returns the value of the last element in the list.*
+  - front()	**–>** 	*Returns the value of the first element in the list.*
+  - back()	**–>** 	*Returns the value of the last element in the list.*
 - **Modifiers:**	
   - push_front(g)	**–>** 	*Adds a new element ‘g’ at the beginning of the list.*
   - push_back(g)	**–>** 	*Adds a new element ‘g’ at the end of the list.*
