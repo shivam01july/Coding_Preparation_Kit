@@ -65,7 +65,19 @@
     - clear()	**–>**	*Removes all of the elements from container.*
     - count()	**–>**	*Count occurrences of a particular element in container.*		
 
-  ### Map & Unordered Map
+### Map & Unordered Map
+> - **Map**
+>   - It is used to store elements as key,value pairs in order sorted by key.
+>   - It is implemented by red-black tree.
+>   - It is slow.
+>   - Time complexity for operations is O(log N).
+>   - It is define in  #include <map> header file
+> - **Unordered Map**
+>   - It is used to store elements as key,value pairs in non-sorted order.
+>   - It is implemented using hash table.
+>   - It is fast.
+>   - Time complexity for operations is O(1).
+>   - It is defined in #include <unordered_map> header file.  
   - **Syntax:**
     - map<Key, Value> mp;
     - unordered_map<Key, Value> umap;
